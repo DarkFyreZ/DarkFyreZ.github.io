@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FINAL GAME FOR CODING</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <button id="playbutton" onclick="playGame()">PLAY</button>
+<progress id="hpbar" value="100" max="100"></progress>
+<div id="mainwrapper">
+  <INPUT TYE="button" id="gameover" onClick="history.go(0)" VALUE="You lose. click to restart">
+   <h1 id="gamewin">WIN WIN WIN</h1>
+  <div id="enemydiv">
+    <img class="enemy" id="illfang" src="http://66.media.tumblr.com/73f89978807ae068a4231b6f1d10b7a9/tumblr_nezrry6K7R1tl19ppo1_1280.png">
+
+    <img class="enemy" id="error" src="http://orig14.deviantart.net/95a6/f/2015/341/0/f/error_404_by_diamondscar-d9jdy7q.gif">
+
+    <img class="enemy" id="gwyn" src="http://i622.photobucket.com/albums/tt302/jjlerma/sephiroth.gif">
+
+    <img class="enemy" id="seph" src="http://67.media.tumblr.com/f6ac872d5aa7dd86fe71884c1bfd73ef/tumblr_mgbrdpHwkR1qdxux9o5_500.gif">
+
+    <img class="enemy" id="baron" src="http://66.media.tumblr.com/ad28480b88ef6861eaecd0f28dba5fc2/tumblr_nqg2n3IXrg1sx0rmro1_400.gif">
+  </div>
+
+  <div id="buttondiv">
+    <button class="skills" id="hellfire" onclick="hellfire">Hellfire Rockets</button>
+    <button class="skills" id="riptide" onclick="riptide()">Anaklusmos</button>
+    <button class="skills" id="light" onclick="light()">Light of redemption</button>
+    <button class="skills" id="drain" onclick="drain()">Ionic Drain</button>
+    <button class="skills" id="eye" onclick="eye()">Eye Of Agamotto</button>
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
